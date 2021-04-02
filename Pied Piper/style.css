@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.content-container {
+    box-sizing: border-box;
+    max-width: 1219px;
+    padding-top: 48px;
+    padding-right: 55px;
+    padding-bottom: 92px;
+    padding-left: 55px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*
+ Template for full width container 
+*/
+.full-width-container {
+    width: 100%;
+    background-color: #007765;
+}
+
+/* Text in content container */
+.content-container p {
+    font-size: 32px;
+}
+/* H1 in content container */
+.content-container h1 {
+    color: #007765;
+    font-size: 64px;
+    text-align: center;
+}
+
+/*part of content conteiner (using in header)*/
+.part-of-content-conteiner {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 49%;
+    color: white;
+}
+#header-full-width-container {
+    background-color: #007765;
+    position: fixed;
+}
+
+/* Special rules for header content container */
+#header-content-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/* Container for logo */
+#header-left {
+    display: block;
+    margin: 20px 0px;
+    max-height: 45px;
+    max-width: 184px;
+    height: 45px;
+}
+/* Conteiner for navigation links */
+#header-right {
+    display: block;
+    float: right;
+    text-align: right;
+    padding-top: 35px;
+    color: #fff;
+    font-size: 24px;
+}
+#header-right a {
+    color: #fff;
+    text-decoration: none;
+}
+.jumbotron-full-width-container {
+    padding-top: 89px;
+    background-image: url(image.png);
+    background-position: center;
+    background-size: cover;
+}
+.jumbotron-content-conteiner {
+    padding: 0px;
+}
+.jumbotron-text {
+    font-size: 72px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 160px 160px;
+    text-align: center;
+    color: #fff;
+}
+.the-problem {
+    font-size: 32px;
+    background-color: #eee;
+}
+.hero-container {
+    background-image: url(hero-img.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-content-container {
+    padding: 0px;
+}
+
+.hero-text {
+    width: 72%;
+    font-size: 48px;
+    font-style: italic;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 128px 128px;
+    text-align: center;
+    color: #fff;
+}
+.ppc-container {
+    background-color: #eee;
+}
+.ppc-content-container h1 {
+    color: #007765;
+    font-size: 64px;
+    text-align: center;
+}
+.ppc-img {
+    float: left;
+    max-width: 115px;
+    max-height: 115px;
+    margin-right: 48px;
+}
+.ppc-content-container p{
+    font-size: 32px;
+}
+.ppc-content-container {
+    width: 72%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 128px;
+}
+.the-team-full-width-container {
+    background: #eee;
+}
+.the-team-line-member-conteiner {
+    margin-right: auto;
+    margin-left: auto;
+}
+.the-team-member-conteiner {
+    box-sizing: border-box;
+    width: 350px;
+    height: 283px;
+    display: inline-block;
+}
+.the-team-member-conteiner h1 {
+    color: #007765;
+    text-align: center;
+    font-size: 24px;
+}
+.the-team-member-conteiner p {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.the-team-member-conteiner img {
+    max-height: 168px;
+    max-width: 168px;
+    display: block;
+    margin: 0 auto;
+}
+.footer {
+    background-color: #333333;
+    padding: 48px 340px 64px;
+}
+.footer-text {
+    text-align: center;
+    font-size: 18px;
+    text-align: center;
+    color:white;
+    margin: auto;
+}
